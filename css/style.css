@@ -1,3 +1,4 @@
+@import url(reset.css);
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
 
 :root {
@@ -14,4 +15,24 @@
   --ff-Space-Mono: "Space Mono", monospace;
 
   --fw-700: 700;
+}
+
+body {
+  background-color: var(--clr-light-grayish-cyan);
+  font-family: var(--ff-Space-Mono);
+}
+
+.page-heading {
+  margin-block: 3rem;
+  width: fit-content;
+  margin-inline: auto;
+}
+
+.tip-container {
+  /* 920px */
+  width: min(100%, 57.5rem);
+  min-height: 600px;
+  background-color: var(--clr-white);
+  border-radius: 1.875rem;
+  margin-inline: auto;
 }
