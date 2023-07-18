@@ -23,12 +23,16 @@
     </header>
     <main class="tip-container">
       <div class="tip-form-container">
-        <form action="#">
+        <form class="tip-form" action="#">
           <div class="form-field">
             <label for="bill">Bill</label>
             <div class="input-field">
-              <input id="bill" class="bill" type="text" />
-              <!-- Money Icon -->
+              <input id="bill" class="bill" type="text" placeholder="0" />
+              <img
+                class="input-icon"
+                src="images/icon-dollar.svg"
+                alt="Dollar symbol"
+              />
             </div>
           </div>
           <div class="form-field">
@@ -39,14 +43,23 @@
               <button class="tip-btn" data-percent="15">15%</button>
               <button class="tip-btn" data-percent="25">25%</button>
               <button class="tip-btn" data-percent="50">50%</button>
-              <p class="tip-btn" contenteditable="true">Custom</p>
+              <input
+                id="custom"
+                class="custom"
+                type="text"
+                placeholder="Custom"
+              />
             </div>
           </div>
           <div class="form-field">
             <label for="people">Number of People</label>
             <div class="input-field">
-              <input id="people" class="people" type="text" />
-              <!-- User Icon -->
+              <input id="people" class="people" type="text" placeholder="0" />
+              <img
+                class="input-icon"
+                src="images/icon-person.svg"
+                alt="User symbol"
+              />
             </div>
           </div>
         </form>
@@ -55,23 +68,15 @@
         <div class="tip-output">
           <div class="tip-amount-container">
             <p>Tip Amount <br /><span class="tip-linebreak">/ person</span></p>
-            <p class="tip-person-amount">
-              <!-- Insert $ logo -->
-              0.00
-            </p>
+            <p class="total-amounts">$0.00</p>
           </div>
           <div class="total-bill">
             <p>Total <br /><span class="tip-linebreak">/ person</span></p>
-            <p class="tip-person-amount">
-              <!-- Insert $ logo -->
-              0.00
-            </p>
+            <p class="total-amounts">$0.00</p>
           </div>
           <button class="reset">Reset</button>
         </div>
       </div>
     </main>
-    <!-- Bill Select Tip % 5% 10% 15% 25% 50% Custom Number of People Tip Amount /
-    person Total / person Reset -->
   </body>
 </html>
