@@ -6,8 +6,7 @@
 
 [CHALLENGE](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H) |
 [SOLUTION](https://www.frontendmentor.io/solutions) |
-
-<!-- [LIVE](https://) -->
+[LIVE](https://datkiddude.github.io/tip-calculator-app-frontend-mentor/)
 
 </div>
 
