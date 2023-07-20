@@ -1,4 +1,4 @@
-<!-- ![tip-calculator-main](images\qr-code-design-finished.png) -->
+![tip-calculator-main](images/desktop-design-completed.jpg)
 
 <h1 align="center">Tip Calculator</h1>
 
@@ -7,7 +7,7 @@
 [CHALLENGE](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H) |
 [SOLUTION](https://www.frontendmentor.io/solutions) |
 
-<!-- [LIVE]() -->
+<!-- [LIVE](https://) -->
 
 </div>
 
@@ -32,10 +32,11 @@ I do not have access to the Figma sketch so the design is not pixel perfect.
 - CSS custom properties
 - Mobile-first workflow
 - Javascript
+- International API
 
 ## What I Learned
 
-Will update once project is complete.
+In this project I learned how to utilize the "this" value to manipulate DOM elements. To format the currency I used the Internationalization API. Lastly, I was trying to make my functions as reusable and robust as possible. Hence the use of the "this" value.
 
 ## Useful Resources
 

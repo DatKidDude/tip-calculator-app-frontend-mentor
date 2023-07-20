@@ -23,7 +23,7 @@
     </header>
     <main class="tip-container">
       <div class="tip-form-container">
-        <form class="tip-form" action="#">
+        <div class="tip-form">
           <div class="form-field">
             <label for="bill">Bill</label>
             <div class="input-field">
@@ -52,7 +52,10 @@
             </div>
           </div>
           <div class="form-field">
-            <label for="people">Number of People</label>
+            <div class="flex-row">
+              <label for="people">Number of People</label>
+              <span>Can't be zero</span>
+            </div>
             <div class="input-field">
               <input id="people" class="people" type="text" placeholder="0" />
               <img
@@ -62,7 +65,7 @@
               />
             </div>
           </div>
-        </form>
+        </div>
       </div>
       <div class="tip-output-container">
         <div class="tip-output">
